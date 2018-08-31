@@ -1,0 +1,71 @@
+---
+booktitle: Proceedings of the Ninth International Conference on Probabilistic Graphical
+  Models
+shortname: PGM
+volume: 72
+year: '2018'
+start: 2018-09-11
+end: 2018-09-14
+url: http://proceedings.mlr.press
+conference_number: '9'
+sections:
+- name: Preface
+  title: Preface
+- name: Accepted Papers
+  title: Accepted Papers
+published: 2018-08-28
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: PGM-2018
+month: 0
+cycles: false
+bibtex_editor: Kratochv\'{i}l, V\'{a}clav and Studen\'{y}, Milan
+editor:
+- given: Václav
+  family: Kratochvíl
+- given: Milan
+  family: Studený
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Ninth International Conference on Probabilistic Graphical Models
+    Held in Prague, Czech Republic on 11-14 September 2018
+
+  Published as Volume 72 by the Proceedings of Machine Learning Research on 28 August 2018.
+
+  Volume Edited by:
+    Václav Kratochvíl
+    Milan Studený
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 11--14 Sep
+baseurl: "/v72"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v72
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: International Conference on Probabilistic Graphical Models
+  url: 
+  location: Prague, Czech Republic
+  dates:
+  - 2018-09-11
+  - 2018-09-12
+  - 2018-09-13
+  - 2018-09-14
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/mreid/mlresearch/v72/pgm2018.bib

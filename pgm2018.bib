@@ -1,0 +1,331 @@
+@Proceedings{PGM-2018,
+    booktitle = {Proceedings of the Ninth International Conference on Probabilistic Graphical Models},
+    name = {International Conference on Probabilistic Graphical Models},
+    shortname = {PGM},
+    editor = {Kratochv\'{i}l, V\'{a}clav and Studen\'{y}, Milan},
+    volume = {72},
+    year = {2018},
+    start = {2018-09-11},
+    end = {2018-09-14},
+    url = {http://pgm2018.utia.cas.cz/},
+    address = {Prague, Czech Republic},
+    conference_number = {9},
+    sections = {Preface|Accepted Papers},
+	published = {2018-08-28}
+}
+
+@InProceedings{kratochvil18,
+  title =  {Proceedings of the 9th International Conference on Probabilistic Graphical Models},
+  author = {Kratochv\'{i}l, V\'{a}clav and Studen\'{y}, Milan},
+  pages = {i-iv},
+  abstract = {},
+  section = {Preface}
+}
+@InProceedings{arias18,
+  title =  {Bayesian Network Classifiers Under the Ensemble Perspective},
+  author = {Arias, Jacinto and G\'{a}mez, Jos\'{e} A. and Puerta, Jos\'{e} M.},
+  pages = {1-12},
+  abstract = {Augmented naive Bayesian classifiers relax the original independence assumption by allowing additional dependencies in the model. This strategy leads to parametrized learners that can produce a wide spectrum of models of increasing complexity. Expressiveness and efficiency can be controlled to adjust a trade-off specific to the problem at hand. Recent studies have transposed this finding to the domain of bias and variance, demonstrating that inducing complex multivariate probability distributions produces low-bias/high-variance classifiers that are especially suitable for large data domains. Frameworks like A$k$DE avoid structural learning and reduce variance by averaging a full family of constrained models, at the expense of increasing its spatial and computational complexity. Model selection is then required and performed using Information Theory techniques. We present a new approach to reduce model space from the point of view of ensemble classifiers, where we study the individual contribution to error for each model and how model selection affects this via the aggregation process. We perform a thorough experimentation to analyse bias stability and variance reduction and compare the results within the context of other popular ensemble models such as Random Forest, leading to a discussion on the effectiveness of the previous approaches. The conclusions support new strategies to design more consistent ensemble Bayesian network classifiers which we explore at the end of the paper.},
+  section = {Accepted Papers}
+}                           
+@InProceedings{barnard18,
+  title =  {Causal Structure Learning via Temporal Markov Networks},
+  author = {Barnard, Aubrey and Page, David},
+  pages = {13-24},
+  abstract = {Learning the structure of a dynamic Bayesian network (DBN) is a common way of discovering causal relationships in time series data. However, the combinatorial nature of DBN structure learning limits the accuracy and scalability of DBN modeling. We propose to avoid these limits by learning structure with log-linear temporal Markov networks (TMNs). Using TMNs replaces the combinatorial optimization problem with a continuous, convex one, which can be solved quickly with gradient methods. Furthermore, representing the data in terms of features gives TMNs an advantage in modeling the dynamics of sequences with irregular, sparse, or noisy events. Compared to representative DBN structure learners, TMNs run faster while performing as accurately on synthetic tasks and a real-world task of causal discovery in electronic medical records.},
+  section = {Accepted Papers}
+}                                                                   
+@InProceedings{behjati18,
+  title =  {An Order-based Algorithm for Learning Structure of Bayesian Networks},
+  author = {Behjati, Shahab and Beigy, Hamid},
+  pages = {25-36},
+  abstract = {In this paper, we study the problem learning structure of Bayesian networks from data. The problem of Bayesian networks structure learning (BNSL) takes a dataset as input and produces a directed acyclic graph (DAG) as the output. This problem is known to be NP-hard which is commonly solved using the heuristic methods. There are generally three main approaches to the BNSL problem: score-based , constraint-based and hybrid learning. We propose a new simple and fast algorithm for addressing BNSL problem. The proposed hybrid algorithm is based on a partial ordering learned from data. We reduce the super-exponential search space of structures to the smaller ordering space of nodes. We evaluate the proposed algorithm using some standard benchmark datasets and compare the results with those of some state-of-the-art algorithms. Finally, we show that our algorithm is competitive with recent algorithms.},
+  section = {Accepted Papers}
+}                                                                  
+@InProceedings{bucur18,
+  title =  {A Bayesian Approach for Inferring Local Causal Structure in Gene Regulatory Networks},
+  author = {Bucur, Ioan Gabriel and van Bussel, Tom and Claassen, Tom and Heskes, Tom},
+  pages = {37-48},
+  abstract = {Gene regulatory networks play a crucial role in controlling an organism's biological processes, which is why there is significant interest in developing computational methods that are able to extract their structure from high-throughput genetic data. A typical approach consists of a series of conditional independence tests on the covariance structure meant to progressively reduce the space of possible causal models. We propose a novel efficient Bayesian method for discovering the local causal relationships among triplets of (normally distributed) variables. In our approach, we score the patterns in the covariance matrix in one go and we incorporate the available background knowledge in the form of priors over causal structures. Our method is flexible in the sense that it allows for different types of causal structures and assumptions. We apply the approach to the task of inferring gene regulatory networks by learning regulatory relationships between gene expression levels. We show that our algorithm produces stable and conservative posterior probability estimates over local causal structures that can be used to derive an honest ranking of the most meaningful regulatory relationships. We demonstrate the stability and efficacy of our method both on simulated data and on real-world data from an experiment on yeast.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                     
+@InProceedings{butz18,
+  title =  {An Empirical Study of Methods for SPN Learning and Inference},
+  author = {Butz, Cory J. and Oliveira, Jhonatan S. and dos Santos, Andr\'{e} E. and Teixeira, Andr\'{e} L. and Poupart, Pascal and Kalra,	Agastya},
+  pages = {49-60},
+  abstract = {In this study, we provide an empirical comparison of methods for \emph{sum-product network} (SPN) learning and inference. LearnSPN is a popular algorithm for learning SPNs that utilizes chop and slice operations. As \emph{g-test} is a standard chopping method and \emph{Gaussian mixture models} (GMM) using expectation-maximization is a common slicing method, it seems to have been assumed in the literature that this is the best pair in LearnSPN. On the contrary, our results show that g-test for chopping and \emph{k-means} for slicing yields SPNs that are just as accurate. Moreover, it has been shown that implementing SPN leaf nodes as \emph{Chow-Liu Trees} (CLTs) yields more accurate SPNs for the former pair. Our experiments show the same for the latter pair, and that neither pair dominates the other. Lastly, we report an analysis of SPN topology for unstudied pairs. With respect to inference, we derive \emph{partial propagation} (PP), which performs SPN exact inference without requiring a full propagation over all nodes in the SPN as currently done. Experimental results on SPN datasets demonstrate that PP has several advantages over full propagation in SPNs, including relative time savings, absolute time savings in large SPNs, and scalability.},
+  section = {Accepted Papers}
+}                                                                                                                                   
+@InProceedings{cordoba18,
+  title =  {A partial orthogonalization method for simulating covariance and concentration graph matrices},
+  author = {C\'{o}rdoba, Irene and Varando, Gherardo and Bielza, Concha and Larra\~{n}aga, Pedro},
+  pages = {61-72},
+  abstract = {Structure learning methods for covariance and concentration graphs are often validated on synthetic models, usually obtained by randomly generating: (i) an undirected graph, and (ii) a compatible symmetric positive definite (SPD) matrix. In order to ensure positive definiteness in (ii), a dominant diagonal is usually imposed. However, the link strengths in the resulting graphical model, determined by off-diagonal entries in the SPD matrix, are in many scenarios extremely weak. Recovering the structure of the undirected graph thus becomes a challenge, and algorithm validation is notably affected. In this paper, we propose an alternative method which overcomes such problem yet yields a compatible SPD matrix. We generate a partially row-wise-orthogonal matrix factor, where pairwise orthogonal rows correspond to missing edges in the undirected graph. In numerical experiments ranging from moderately dense to sparse scenarios, we obtain that, as the dimension increases, the link strength we simulate is stable with respect to the structure sparsity. Importantly, we show in a real validation setting how structure recovery is greatly improved for all learning algorithms when using our proposed method, thereby producing a more realistic comparison framework.},
+  section = {Accepted Papers}
+}                                                                                                                                                                            
+@InProceedings{conaty18,
+  title =  {Cascading Sum-Product Networks using Robustness},
+  author = {Conaty, Diarmaid and Mart\'{i}nez Del Rincon, Jes\'{u}s and De Campos, Cassio P.},
+  pages = {73-84},
+  abstract = {Sum-product networks are an increasingly popular family of probabilistic graphical models for which marginal inference can be performed in polynomial time. They have been shown to achieve state-of-the-art performance in several tasks. When learning sum-product networks from scarce data, the obtained model may be prone to robustness issues. In particular, small variations of parameters could lead to different conclusions. We discuss the characteristics of sum-product networks as classifiers and study the robustness of them with respect to their parameters. Using a robustness measure to identify (possibly) unreliable decisions, we build a hierarchical approach where the classification task is deferred to another model if the outcome is deemed unreliable.  We apply this approach on benchmark classification tasks and experiments show that the robustness measure can be a meaningful manner to improve classification accuracy.},
+  section = {Accepted Papers}
+}                      
+@InProceedings{cussens18,
+  title =  {Markov Random Field MAP as Set Partitioning},
+  author = {Cussens, James},
+  pages = {85-96},
+  abstract = {The Markov Random Field (MRF) MAP inference problem is considered from the viewpoint of integer programming (IP). The problem is shown to be a (pure) set partitioning problem (SPP). This allows us to bring existing work on SPP to bear on the MAP problem. Facets (maximally strong linear inequalities) of the closely related set packing (SP) problem are shown to be useful for MRF MAP. These facets include odd hole and odd anti-hole inequalities which are shown to be findable using a zero-half cut generator. Experimental results using CPLEX show that for MRF MAP problems, generating more zero-half cuts than normal typically brings performance improvements. Pre-processing methods to reduce the size of MRF MAP problems are also considered, and some preliminary results on their usefulness presented.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                                                         
+@InProceedings{dal18,
+  title =  {Parallel Probabilistic Inference by Weighted Model Counting},
+  author = {Dal, Giso H. and Laarman, Alfons W. and Lucas, Peter J.F.},
+  pages = {97-108},
+  abstract = {Knowledge compilation as part of the Weighted Model Counting approach has proven to be an efficient tool for exact inference in probabilistic graphical models, by exploiting structures that more traditional methods can not. The availability of affordable high performance commodity hardware has been an inspiration for other inference approaches to exploit parallelism, to great suc- cess. In this paper, we explore the possibilities for Weighted Model Counting. We have empirically confirmed that exploited parallelism yields substantial speedups using a set of real-world Bayesian networks.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                    
+@InProceedings{donselaar18,
+  title =  {Parameterized hardness of active inference},
+  author = {Donselaar, Nils},
+  abstract = {Within the field of cognitive neuroscience, predictive processing is an increasingly popular unifying account of cognitive capacities including action and perception which posits that these rely on probabilistic generative models to predict sensory input or the consequences of one's behaviour. In the corresponding literature one frequently encounters naive claims about the computational resources required to successfully employ such models, while actual complexity analyses are often lacking. In this paper we study the problem of selecting a course of action which yields the greatest reduction in prediction error between the intended outcome and the current state, known in this area as \textit{active inference}. Modelling the problem in terms of Bayesian networks and the relative entropy (Kullback-Leibler divergence) between a target and an induced distribution, we derive parameterized (in)tractability results extending the $\mathsf{NP}^{\mathsf{PP}}$-hardness classification found in~Kwisthout 2014. These show that contrary to common belief, the size of the prediction error does not determine whether active inference is tractable, not even when the number of actions and outcomes to be considered is restricted. Moreover, this conclusion appears to extend even to an approximate version of the problem. We believe these results can be of interest to both cognitive scientists seeking to evaluate the plausibility of their explanatory theories, and to researchers working on probabilistic models, as they relate to existing work on the hardness of observation selection in decision making.},
+  pages = {109-120},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                                                        
+@InProceedings{gain18,
+  title =  {Structure Learning Under Missing Data},
+  author = {Gain, Alexander and Shpitser, Ilya},
+  pages = {121-132},
+  abstract = {Causal discovery is the problem of learning the structure of a graphical causal model that approximates the true generating process that gave rise to observed data. In practical problems, including in causal discovery problems, missing data is a very common issue. In such cases, learning the true causal graph entails estimating the full data distribution, samples from which are not directly available. Attempting to instead apply existing structure learning algorithms to samples drawn from the observed data distribution, containing systematically missing entries, may well result in incorrect inferences due to selection bias. Inthis paperwe discuss adjustmentsthat mustbemade toexistingstructure learningalgorithms to properly account for missing data. We first give an algorithm for the simpler setting where the underlying graph is unknown, but the missing data model is known. We then discuss approaches to the much more difficult case where only the observed data is given with no other additional information on the missingness model known. We validate our approach by simulations, showing that it outperforms standard structure learning algorithms in all of these settings.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                      
+@InProceedings{hyttinen18,
+  title =  {Structure Learning for Bayesian Networks over Labeled DAGs},
+  author = {Hyttinen, Antti and Pensar, Johan and Kontinen, Juha and Corander, Jukka},
+  pages = {133-144},
+  abstract = {Graphical models based on labeled directed acyclic graphs (LDAGs) allow for representing context-specific independence relations in addition to regular conditional independencies. Modeling such constraints has been demonstrated to be important for expressiveness, interpretation and predictive ability. In this paper, we build theoretical results that make constraint-based and exact score-based structure discovery possible for this interesting model class.  In detail, we present the first constraint-based learning method for LDAGs. The orientation rules use context-specific independencies for principled orientation of additional (causal) edges. We also present the first exact score-based learning method for LDAGs, that employs a branch and bound for the especially computational demanding task of local score calculation, after which exact DAG search can be used. Simulations verify the good performance of our methods in different data analysis tasks.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                 
+@InProceedings{chen18,
+  title =  {Solving M-Modes in Loopy Graphs Using Tree Decompositions},
+  author = {Chen, Cong and Yuan, Changhe and Ye, Ze and Chen, Chao},
+  pages = {145-156},
+  abstract = {M-Modes is the problem of finding the top M labelings of a graphical model that are locally optimal. The state-of-the-art M-Modes algorithm is a heuristic search method that finds global modes by incrementally concatenating MAP solutions in local neighborhoods. The search method also relies on the guidance of a heuristic function to explore the most promising parts of the search space. However, due to the difficulty of coordinating mode search, heuristic function calculation and local MAP computation in general loopy graphs, the method was only implemented and tested on special graphical models such as trees or submodular grid graphs. This paper provides a more general implementation of the search method based on tree decompositions that is applicable to general loopy graphs. A tree decomposition allows a sequence of local subgraphs to be mapped to a set of sub-trees sweeping through the tree decomposition, thus enabling a smooth and efficient transition back and forth between mode search, heuristic functio},
+  section = {Accepted Papers}
+}                                                                                                                                                                                      
+@InProceedings{choi18,
+  title =  {On the Relative Expressiveness of Bayesian and Neural Networks},
+  author = {Choi, Arthur and Darwiche, Adnan},
+  pages = {157-168},
+  abstract = {A neural network computes a function.  A central property of neural networks is that they are ``universal approximators:'' for a given continuous function, there exists a neural network that can approximate it arbitrarily well, given enough neurons (and some additional assumptions).  In contrast, a Bayesian network is a model, but each of its queries can be viewed as computing a function.  In this paper, we identify some key distinctions between the functions computed by neural networks and those by Bayesian network queries, showing that the former are more expressive than the latter.  Moreover, we propose a simple augmentation to Bayesian networks (a testing operator), which enables their queries to become ``universal approximators'' as well.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                     
+@InProceedings{jabbari18,
+  title =  {Instance-Specific Bayesian Network Structure Learning},
+  author = {Jabbari, Fattaneh and Visweswaran, Shyam and Cooper, Gregory F.},
+  pages = {169-180},
+  abstract = {Bayesian network (BN) structure learning algorithms are almost always designed to recover the structure that models \textit{the relationships that are shared by the instances in a population}. While accurately learning such population-wide Bayesian networks is useful, learning Bayesian networks that are specific to each instance is often important as well. For example, to understand and treat a patient (instance), it is critical to understand the specific causal mechanisms that are operating in that particular patient. We introduce an instance-specific BN structure learning method that searches the space of Bayesian networks to build a model that is specific to an instance by guiding the search based on attributes of the given instance (e.g., patient symptoms, signs, lab results, and genotype). The structure discovery performance of the proposed method is compared to an existing state-of-the-art BN structure learning method, namely an implementation of the Greedy Equivalence Search algorithm called FGES, using both simulated and real data. The results show that the proposed method improves the  precision of the model structure that is output, when compared to GES, especially for those variables that exhibit context-specific independence.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                              
+@InProceedings{jaini18,
+  title =  {Prometheus : Directly Learning Acyclic Directed Graph Structures for Sum-Product Networks},
+  author = {Jaini, Priyank and Ghose, Amur and Poupart, Pascal},
+  pages = {181-192},
+  abstract = {In this paper, we present Prometheus, a graph partitioning based algorithm that creates multiple variable decompositions efficiently for learning Sum-Product Network structures across both continuous and discrete domains. Prometheus proceeds by creating multiple candidate decompositions that are represented compactly with an acyclic directed graph in which common parts of different decompositions are shared. It eliminates the correlation threshold hyperparameter often used in other structure learning techniques, allowing Prometheus to learn structures that are robust in low data regimes. Prometheus outperforms other structure learning techniques in 30 discrete and continuous domains. We also describe a sampling based approximation of Prometheus that scales to high-dimensional domains such as images.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                 
+@InProceedings{javidian18,
+  title =  {Finding Minimal Separators in LWF Chain Graphs},
+  author = {Javidian, Mohammad Ali and Valtorta, Marco},
+  pages = {193-200},
+  abstract = {We address the problem of finding a minimal separator in a LWF chain graph, namely,  finding a set $Z$ of nodes that separates a given non-adjacent pair of nodes such that no proper subset of $Z$ separates that pair. We analyze several versions of this problem and offer polynomial time algorithms for each. These include finding a minimal separator from a restricted set of nodes, finding a minimal separator for two given disjoint sets, and testing whether a given separator is minimal.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                     
+@InProceedings{lefebvre18,
+  title =  {A sum-product algorithm with polynomials for computing exact derivatives of the likelihood in Bayesian networks},
+  author = {Lefebvre, Alexandra and Nuel, Gr\'{e}gory},
+  pages = {201-212},
+  abstract = {We consider a Bayesian network with a parameter $\theta$. It is well known that the probability of an \emph{evidence} conditional on $\theta$ (the likelihood) can be computed through a sum-product of potentials. In this work we propose a polynomial version of the sum-product algorithm based on generating functions for computing both the likelihood function and all its exact derivatives. For a unidimensional parameter we obtain the derivatives up to order $d$ with a complexity $\mathcal{O} (C \times d^2)$ where $C$ is the complexity for computing the likelihood alone. For a parameter of $p$ dimensions we obtain the likelihood, the gradient and the Hessian with a complexity $\mathcal{O} (C \times p^2)$. These complexities are similar to the numerical method with the main advantage that it computes exact derivatives instead of approximations.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                        
+@InProceedings{leppaeaho18,
+  title =  {Learning Non-parametric Markov Networks with Mutual Information},
+  author = {Lepp\"{a}-Aho, Janne and R\"{a}is\"{a}nen, Santeri and Yang, Xiao and Roos, Teemu},
+  pages = {213-224},
+  abstract = {We propose a method for learning Markov network structures for continuous data without assuming any particular parametric distribution for the variables. The method makes use of previous work on a non-parametric estimator for mutual information which is used to create a non-parametric test for multivariate conditional independence. This independence test is then combined with an efficient constraint-based algorithm for learning the graph structure. The performance of the method is evaluated on several synthetic data sets and it is shown to learn more accurate structures than competing methods when the dependencies between the variables involve non-linearities.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                     
+@InProceedings{li18,
+  title =  {Bayesian Network Structure Learning with Side Constraints},
+  author = {Li, Andrew and van Beek, Peter},
+  pages = {225-236},
+  abstract = {Hybrid methods for Bayesian network structure learning that incorporate both observed data and expert knowledge have proven to be important in many fields. Previous studies have presented both exact and approximate hybrid methods for structure learning. In this paper, we propose an approximate method based on local search that is capable of efficiently handling a variety of prior knowledge constraints, including an important class of non-decomposable \emph{ancestral} constraints that assert indirect causation between random variables. In our experiments, our proposed approximate method is able to significantly outperform an existing state-of-the-art approximate method in finding feasible solutions when \emph{hard constraints} are imposed. Our approach is able to find near-optimal networks while scaling up to almost fifty random variables. In contrast, previous exact methods are unable to handle more than twenty random variables. Furthermore, we show that when prior knowledge is integrated, we are often able to produce a network much closer to the ground truth network, particularly when the amount of data is limited.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                     
+@InProceedings{liu18,
+  title =  {Making Continuous Time Bayesian Networks More Flexible},
+  author = {Liu, Manxia and Stella, Fabio and Hommersom, Arjen and Lucas, Peter J.F.},
+  pages = {237-248},
+  abstract = {The time duration in continuous time Bayesian networks, i.e., the time that a variable stays in a state until it transitions to another state, follows an exponential distribution. The exponential distribution is widely applied to describe the waiting time between events in a Poisson process, which describes the distribution of the number of events in one unit of time. This distribution is parameterized by a single rate and has mode zero, implying that the highest probability mass for events to happen is attributed to the earliest times. To describe biological processes, the exponential distribution is not always natural.  For example, if the immune system has not encountered a pathogen before, it most likely responds to a viral infection after a few days, rather than immediately.  In this paper, we generalize our recently proposed hypoexponential continuous time Bayesian networks, by allowing any number of hypoexponential variables, i.e., variables having a hypoexponential time duration distribution. In addition, we propose and compare two learning methods to estimate parameters for the generalized models. Finally, the practical value of the generalized models is demonstrated by means of a realistic medical problem.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                    
+@InProceedings{mader18,
+  title =  {A Novel Approach to Handle Inference in Discrete Markov Networks with Large Label Sets},
+  author = {Mader, Alexander Oliver and von Berg, Jens and Lorenz, Cristian and Meyer, Carsten},
+  pages = {249-259},
+  abstract = {MAP inference over discrete Markov networks with large label sets is often applied, e.g., in localizing multiple key points in the image domain. Often, approximate or domain specific methods are used to make the problem feasible. An alternative method is to preselect a limited (much smaller) set of suitable labels, which bears the risk to exclude the correct solution. To solve the latter problem, we propose a two-step approach: First, the reduced label sets are extended by a novel ``refine'' label, which --- when chosen during inference --- marks nodes where the label set is insufficient. The energies for this additional label are learned in conjunction with the network's potential weights. Second, for all nodes marked with the ``refine'' label, additional local inference steps over the full label set are performed. This greedy refinement becomes feasible by extracting small subgraphs around the marked nodes and fixing all other nodes. We thoroughly evaluate and analyze our approach by solving the problem of localizing and identifying 16 posterior ribs in 2D chest radiographs.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                  
+@InProceedings{madsen18,
+  title =  {Simple Propagation with Arc-Reversal in Bayesian Networks},
+  author = {Madsen, Anders and Butz, Cory J. and Oliveira, Jhonatan S. and dos Santos, Andr\'{e} E.},
+  pages = {260-271},
+  abstract = {Simple Propagation is a recently introduced algorithm for inference in discrete Bayesian networks using message passing in a junction tree. Simple Propagation is similar to Lazy Propagation, but uses the simple {\itshape one in, one out}-principle when computing messages between cliques of the junction tree instead of using a more in-depth graphical analysis of the set of potentials. In this paper, we describe how to apply Arc-Reversal (AR) as the marginalization algorithm during message passing in Simple Propagation.  We consider both discrete and hybrid Bayesian networks, where the continuous variables are assumed to be Conditional Linear Gaussian (CLG). The use of AR eliminates the need for complex matrix operations in case of CLG networks, while offering opportunities to exploit additional independence and irrelevance properties in both cases when compared to Variable Elimination (VE).  The performance of Simple Propagation with AR has been evaluated on a set of real-world Bayesian networks with discrete variables and hybrid Bayesian networks constructed by randomly replacing discrete variables with continuous variables under the CLG constraints. The performance of Simple Propagation with AR is compared with the performance of Lazy Propagation with AR. The results of the experimental performance analysis of Simple Propagation with AR are encouraring.},
+  section = {Accepted Papers}
+}                                                                                                                                                                               
+@InProceedings{mihaljevic18,
+  title =  {Learning Bayesian network classifiers with completed partially directed acyclic graphs},
+  author = {Mihaljevi\'{c}, Bojan and Bielza, Concha and Larra\~{n}aga, Pedro},
+  pages = {272-283},
+  abstract = {Most search and score algorithms for learning Bayesian network classifiers from data traverse the space of directed acyclic graphs (DAGs), making arbitrary yet possibly suboptimal arc directionality decisions. This can be remedied by learning in the space of DAG equivalence classes. We provide a number of contributions to existing work along this line. First, we identify the smallest subspace of DAGs that covers all possible class-posterior distributions when data is complete. All the DAGs in this space, which we call \textit{minimal class-focused} DAGs (MC-DAGs), are such that their every arc is directed towards a child of the class variable. Second, in order to traverse the equivalence classes of MC-DAGs, we adapt the greedy equivalence search (GES) by adding operator validity criteria which ensure GES only visits states within our space. Third, we specify how to efficiently evaluate the discriminative score of a GES operator for MC-DAG in time independent of the number of variables and without converting the completed partially DAG, which represents an equivalence class, into a DAG. The adapted GES perfomed well on real-world data sets.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                            
+@InProceedings{mohan18,
+  title =  {Consistent Estimation given Missing Data},
+  author = {Mohan, Karthika and Pearl, Judea},
+  pages = {284-295},
+  abstract = {This paper presents a unified approach for recovering causal and probabilistic queries using graphical models given missing (or incomplete) data. To this end, we develop a general algorithm that can recover conditional probability distributions and conditional causal effects in semi-Markovian models. },
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                        
+@InProceedings{montero-hernandez18,
+  title =  {Intervals of Causal Effects for Learning Causal Graphical Models},
+  author = {Montero-Hernandez, Samuel and Orihuela-Espina, Felipe and Sucar, Luis Enrique},
+  pages = {296-307},
+  abstract = {Structure learning algorithms aim to retrieve the true causal structure from a set of observations. Most times only an equivalence class can be recovered and a unique model cannot be singled out. We hypothesized that casual directions could be inferred from the assessment of the strength of potential causal effects and such assessment can be computed by intervals comparison strategies. We introduce SLICE (Structural Learning with Intervals of Causal Effects), a new algorithm to decide on unresolved relations, which taps on the computation of causal effects and an acceptability index; a strategy for intervals comparison. For validation purposes, synthetic datasets were generated varying the graph size and density with samples drawn from Gaussian and non-Gaussian distributions. Comparison against LiNGAM is made to establish the performance of SLICE over $1440$ scenarios using the normalised structural Hamming distance (SHD). The retrieved structures with SLICE showed smaller SHD values in the Gaussian case, improving the structure of the retrieved causal model in terms of correctly found directions. The acceptability index is a good predictor of the true causal effects ($R^2=0.62$). The proposed strategy represents a new tool for discovering unravelled causal relations in the presence of observational data only.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                             
+@InProceedings{pena18,
+  title =  {Unifying DAGs and UGs},
+  author = {Pe\~{n}a, Jose M.},
+  pages = {308-319},
+  abstract = {We introduce a new class of graphical models that generalizes Lauritzen-Wermuth-Frydenberg chain graphs by relaxing the semi-directed acyclity constraint so that only directed cycles are forbidden. Moreover, up to two edges are allowed between any pair of nodes. Specifically, we present local, pairwise and global Markov properties for the new graphical models and prove their equivalence. We also present an equivalent factorization property.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                                                      
+@InProceedings{perez18,
+  title =  {Approximating the maximum weighted decomposable graph problem with applications to probabilistic graphical models},
+  author = {P\'{e}rez, Aritz and Blum, Christian and Lozano, Jose A.},
+  pages = {320-331},
+  abstract = {In this work we deal with the problem of learning a maximum weighted $(k + 1)$-order decomposable graph coarser than a given maximal $k$-order decomposable graph (also known as hypertree of tree-width $k-1$). An Integer Linear Programming formulation for the problem has recently been proposed and used in order to solve instances of the problem with a moderate number of vertices. However, as the problem is known to be NP-hard, it is of practical interest to develop approximate algorithms able to work with a limited amount of computational resources. In this paper we propose an approximate Integer Linear Programming formulation for the problem using a threshold distance which discards the edges that, on average, have a low probability of being contained in the solution. Experiments have been carried out with weighted graphs and probabilistic graphical models. Using the proposed formulation we have obtained results close to the optimum, even when most of the candidate edges were discarded using the distance criterion. The obtained good results indicate that the approximate formulation has important applications for learning probabilistic graphical models using decomposable scores, e.g., BDe.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                  
+@InProceedings{petersen18,
+  title =  {Sparse Learning in Gaussian Chain Graphs for State Space Models},
+  author = {Petersen, Lasse},
+  pages = {332-343},
+  abstract = {The graphical lasso is a popular method for estimating the structure of undirected Gaussian graphical models from data by penalized maximum likelihood. This paper extends the idea of structure estimation of graphical models by penalized maximum likelihood to Gaussian chain graph models for state space models. First we show how the class of linear Gaussian state space models can be interpreted in the chain graph set-up under both the LWF and AMP Markov properties, and we demonstrate how sparsity of the chain graph structure relates to sparsity of the model parameters. Exploiting this relation we propose two different penalized maximum likelihood estimators for recovering the chain graph structure from data depending on the Markov interpretation at hand. We frame the penalized maximum likelihood problem in a missing data set-up and carry out estimation in each of the two cases using the EM algorithm. The common E-step is solved by smoothing, and we solve the two different M-steps by utilizing existing methods from high dimensional statistics and convex optimization.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                                                        
+@InProceedings{rantanen18,
+  title =  {Learning Optimal Causal Graphs with Exact Search},
+  author = {Rantanen, Kari and Hyttinen, Antti and J\"{a}rvisalo, Matti},
+  pages = {344-355},
+  abstract = {Discovering graphical models over very general model spaces with high accuracy requires optimally combining conflicting (in)dependence constraints in sample data, and thus results in a computationally hard combinatorial optimization problem. Recent advances in exact algorithmic approaches in this  constraint-based setting build upon off-the-shelf declarative optimization solvers. In this paper, we propose the first truly specialized exact search algorithm for optimal causal graphs in a general model space, allowing both cycles and latent confounding variables. Our problem-oriented approach enables directly incorporating domain knowledge for developing a wider range of specialized search techniques for the problem, including problem-specific propagators, branching heuristics, and bounding techniques, as well as directly incorporating different constraints on the model space, such as sparsity and acyclicity constraints. We empirically evaluate a first implementation of the approach, showing that it clearly outperforms current state of art in exact constraint-based causal discovery on real-world instances.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                            
+@InProceedings{rashwan18,
+  title =  {Discriminative Training of Sum-Product Networks by Extended Baum-Welch},
+  author = {Rashwan, Abdullah and Poupart, Pascal and Zhitang, Chen},
+  pages = {356-367},
+  abstract = {We present a discriminative learning algorithm for Sum-Product Networks (SPNs) \citep{poon2011sum} based on the Extended Baum-Welch (EBW) algorithm \citep{baum1970maximization}.  We formulate the conditional data likelihood in the SPN framework as a rational function, and we use EBW to monotonically maximize it. We derive the algorithm for SPNs with both discrete and continuous variables. The experiments show that this algorithm performs better than both generative Expectation-Maximization, and discriminative gradient descent on a wide variety of applications. We also demonstrate the robustness of the algorithm in the case of missing features by comparing its performance to Support Vector Machines and Neural Networks.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                   
+@InProceedings{renooij18,
+  title =  {Same-Decision Probability: Threshold Robustness and Application to Explanation},
+  author = {Renooij, Silja},
+  pages = {368-379},
+  abstract = {The same-decision probability (SDP) is a confidence measure for threshold-based decisions. In this paper we detail various properties of the SDP that allow for studying its robustness to changes in the threshold value upon which a decision is based. In addition to expressing confidence in a decision, the SDP has proven to be a useful tool in other contexts, such as that of information gathering. We demonstrate that the properties of the SDP as established in this paper allow for its application in the context of explaining Bayesian network classifiers as well.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                                                         
+@InProceedings{rivas18,
+  title =  {Circular Chain Classifiers},
+  author = {Rivas, Jes\'{u}s Joel and Orihuela-Espina, Felipe and Succar, Luis Enrique},
+  pages = {380-391},
+  abstract = {Chain Classifiers (CC) are an alternative for multi-label classification that is efficient and provides, in general, good results. However, it is not clear how to define the order of the chain. Different orders tend to produce different outcomes. We propose an extension to chain classifiers called ``Circular Chain Classifiers" (CCC), in which the propagation of the classes of the previous binary classifiers is done iteratively in a circular way. After the first cycle, the predictions from the base classifiers are entered as additional attributes to the first one in the chain. This process continues for all the classifiers in the chain, and it is repeated for a prefixed number of cycles or until convergence. Using two datasets, we empirically established that CCC: (i) converges in few iterations (in general, 3 or 4), (ii) the initial order of the chain does not have a significant impact on the results. CCC performance was also compared against binary relevance and chain classifiers producing statistically superior results. The main contribution of CCC is its independence from the preestablished order of the chain, outperforming CC.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                         
+@InProceedings{rodriguez-sanchez18,
+  title =  {Discrete model-based clustering with overlapping subsets of attributes},
+  author = {Rodriguez-Sanchez, Fernando and Larra\~{n}aga, Pedro and Bielza, Concha},
+  pages = {392-403},
+  abstract = {Traditional model-based clustering methods assume that data instances can be grouped in a single ``best" way. This is often untrue for complex data, where several meaningful sets of clusters may exist, each of them associated to a unique subset of data attributes. Current literature has approached this problem with models that consider disjoint subsets of attributes to define distinct clustering solutions. Each solution being represented by a cluster variable. However, restricting attributes to a single cluster variable diminishes the expressiveness and quality of these models. For this reason, we propose a novel kind of models that allows cluster variables to have overlapping subsets of attributes between them. In order to learn these models, we propose to combine a search-based method with an attribute clustering procedure. Experimental results with both synthetic and real-world data show the utility of our approach and its competitiveness with the state-of-the-art.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                  
+@InProceedings{roverato18,
+  title =  {Differential networking with path weights in Gaussian trees},
+  author = {Roverato, Alberto and Castelo, Robert},
+  pages = {404-415},
+  abstract = {Marginal and partial correlations quantify the strength of the associations represented by the edges of a graphical Gaussian model. The identification of changes in these quantities across different multivariate distributions, defined on the same vector of random variables, is often used to analyze regulatory networks in molecular biology, doing what is popularly known as differential networking, or differential coexpression analysis. However, the strength of associations along the paths of a graphical model has remained largely unexplored in this type of analysis. Here we investigate how to quantify this strength over the paths of a Gaussian tree, leading to a factorization of what we shall call path weights. We show that tree structures allow for an intuitive interpretation of path weights and that the proposed factorization conveys information that is not captured by marginal or partial correlations alone. Path weights can help to improve our understanding of a multivariate system under study and provide a new tool for differential coexpression analysis.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                     
+@InProceedings{shih18,
+  title =  {Formal Verification of Bayesian Network Classifiers},
+  author = {Shih, Andy and Choi, Arthur and Darwiche, Adnan},
+  pages = {427-438},
+  abstract = {A new approach was recently proposed for {\em explaining} the decisions made by Bayesian network classifiers. This approach is based on first compiling a given classifier (i.e., its decision function) into a tractable representation called an Ordered Decision Diagram (ODD). Given an ODD representation of the decision function, we get the ability to provide reasons for why a classifier labels a given instance positively or negatively. We show in this paper that this approach also gives us the ability to {\em verify} the behavior of classifiers. We also provide case studies in explaining and verifying classifiers for some real-world domains, such as in medical diagnosis and educational assessment.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                 
+@InProceedings{sugahara18,
+  title =  {Exact learning augmented naive Bayes classifier},
+  author = {Sugahara, Shouta and Uto, Masaki and Ueno, Maomi},
+  pages = {439-450},
+  abstract = {For classification problems, Bayesian networks are often used to infer a class variable when given feature variables. Earlier reports have described that classification accuracies of Bayesian networks achieved by maximizing the marginal likelihood (ML) were lower than those achieved by maximizing the conditional log likelihood (CLL) of a class variable given the feature variables. However, the reports stated no reason why CLL outperformed ML. Differences between the two scores' performances in those earlier studies might depend on their respective learning algorithms: they were approximate learning algorithms, not exact ones. The present study compared the classification performances of Bayesian networks with exact learning using ML and those with approximate learning using CLL. Results demonstrate that the performance of Bayesian networks achieved by maximizing ML is not necessarily worse than that achieved by maximizing CLL. However, the results also show that classification accuracies with exact learning by ML are much worse than those by other methods when the class variable has numerous parents and few children. To resolve this difficulty, this study proposed exact learning augmented naive Bayes (ANB) using Markov blanket feature selection. Some comparison experiments demonstrated that the proposed method outperforms the other methods.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                     
+@InProceedings{talvitie18,
+  title =  {Finding Optimal Bayesian Networks with Local Structure},
+  author = {Talvitie, Topi and Eggeling, Ralf and Koivisto, Mikko},
+  pages = {451-462},
+  abstract = {The idea of using decision trees as local models in Bayesian networks is revisited. A class of dyadic decision trees---proposed previously only for continuous conditioning variables---is augmented by incorporating categorical variables with arbitrary context-specific recursive splitting of their state spaces. It is shown that the resulting model class admits computationally feasible maximization of a Bayes score in a range of moderate-size problem instances. In particular, it enables global optimization of the Bayesian network structure, including the local structure, using state-of-the-art exact algorithms.  The paper also introduces a related model class that extends ordinary conditional probability tables to continuous variables by employing an adaptive discretization approach.  The two model classes are compared empirically by learning Bayesian networks from benchmark real-world and synthetic data sets. The relative strengths of the model classes are discussed.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                 
+@InProceedings{tichavsky18,
+  title =  {Representations of Bayesian networks by low-rank models},
+  author = {Tichavsk\'{y}, Petr and Vomlel, Ji\v{r}\'{i}},
+  pages = {463-474},
+  abstract = {Conditional probability tables (CPTs) of discrete valued random variables may achieve high dimensions and Bayesian networks defined as the product of these CPTs may become intractable by conventional methods of BN inference because of their dimensionality. In many cases, however, these probability tables constitute tensors of relatively low rank. Such tensors can be written in the so-called Kruskal form as a sum of rank-one components. Such representation would be equivalent to adding one artificial parent to all random variables and deleting all edges between the variables. The most difficult task is to find such a representation given a set of marginals or CPTs of the random variables under consideration. In the former case, it is a problem of joint canonical polyadic (CP) decomposition of a set of tensors. The latter fitting problem can be solved in a similar manner. We apply a recently proposed alternating direction method of multipliers (ADMM), which assures that the model has a probabilistic interpretation, i.e., that all elements of all factor matrices are nonnegative. We perform experiments with several well-known Bayesian networks.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                
+@InProceedings{tomasi18,
+  title =  {Forward-Backward Splitting for Time-Varying Graphical Models},
+  author = {Tomasi, Federico and Tozzo, Veronica and Verri, Alessandro and Salzo, Saverio},
+  pages = {475-486},
+  abstract = {Gaussian graphical models have received much attention in the last years, due to their flexibility and expression power. However, the optimisation of such complex models suffer from computational issues both in terms of convergence rates and memory requirements. Here, we present a forward-backward splitting (FBS) procedure for Gaussian graphical modelling of multivariate time-series which relies on recent theoretical studies ensuring convergence under mild assumptions. Our experiments show that a FBS-based implementation achieves, with very fast convergence rates, optimal results with respect to ground truth and standard methods for dynamical network inference. Optimisation algorithms which are usually exploited for network inference suffer from drawbacks when considering large sets of unknowns. Particularly for increasing data sets and model complexity, we argue for the use of fast and theoretically sound optimisation algorithms to be significant to the graphical modelling community.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                  
+@InProceedings{vandergaag18a,
+  title =  {A Lattice Representation of Independence Relations},
+  author = {{van der Gaag}, Linda C. and Baioletti, Marco and Bolt, Janneke H.},
+  pages = {487-498},
+  abstract = {Independence relations in general include exponentially many statements of independence, that is, exponential in terms of the number of variables involved.  These relations are typically fully characterised however, by a small set of such statements and an associated set of derivation rules. While various computational problems on independence relations can be solved by manipulating these smaller sets without the need to explicitly generate the full relation, existing algorithms are still associated with often prohibitively high running times.  In this paper, we introduce a lattice representation for sets of independence statements, which provides further insights in the structural properties of independence and thereby renders the algorithms for some well-known problems on independence relations less demanding.  By means of experimental results, in fact, we demonstrate a substantial gain in efficiency of closure computation of semi-graphoid independence relations.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                   
+@InProceedings{vandergaag18b,
+  title =  {Naive Bayesian Classifiers with Extreme Probability Features},
+  author = {{van der Gaag}, Linda C. and Capotorti, Andrea},
+  pages = {499-510},
+  abstract = {Despite their popularity, naive Bayesian classifiers are not well suited for real-world applications involving extreme probability features.  As will be demonstrated in this paper, methods used to forestall the inclusion of zero probability parameters in naive classifiers have quite counterintuitive effects.  An elegant, principled solution for handling extreme probability events is available however, from coherent conditional probability theory.  We will show how this theory can be integrated in standard naive Bayesian classifiers, and then present a computational framework that retains the classifiers' efficiency in the presence of a limited number of extreme probability features.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                   
+@InProceedings{vanommen18,
+  title =  {Learning Bayesian Networks by Branching on Constraints},
+  author = {van Ommen, Thijs},
+  pages = {511-522},
+  abstract = {We consider the Bayesian network structure learning problem, and present a new algorithm for enumerating the $k$ best Markov equivalence classes. This algorithm is score-based, but uses conditional independence constraints as a way to describe the search space of equivalence classes. The techniques we use here can potentially lead to the development of score-based methods that deal with more complex domains, such as the presence of latent confounders or feedback loops. We evaluate our algorithm's performance on simulated continuous data.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                                                                       
+@InProceedings{xiang18,
+  title =  {Privacy Sensitive Construction of Junction Tree Agent Organization for Multiagent Graphical Models},
+  author = {Xiang, Yang and Alshememry, Abdulrahman},
+  pages = {523-534},
+  abstract = {Junction trees (JTs) are not only effective structures for single-agent probabilistic graphical models (PGMs), but also effective agent organizations in multiagent graphical models, such as multiply sectioned Bayesian networks. A natural decomposition of agent environment may not allow construction of a JT organization. Hence, re-decomposition of the environment is necessary. However, re-decomposition incurs loss of agent privacy that ultimately translates to loss of intellectual property of agent suppliers. We propose a novel algorithm DAER (Distributed Agent Environment Re-decomposition) that re-decomposes the environment to enable a JT organization and incurs significantly less privacy loss than existing JT organization construction methods.},
+  section = {Accepted Papers}
+}                                                                                                                                                                                                                                             
